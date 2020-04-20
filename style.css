@@ -1,0 +1,98 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.container{
+
+width:1000px;
+height:550px;
+background-image: url("images/img.jpg");
+margin: 20px auto;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.cal{
+    position: relative;
+    width: 320px;
+    height: 520px;
+    background-color: rgb(233, 229, 229);
+    margin:30px auto;
+    top:15px;
+    border-radius:5px;
+    box-shadow: 0 4px 7px 0 rgb(116, 114, 114) , 0 6px 10px 0 rgb(87, 86, 86);
+
+}
+
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#output{
+    text-align: right;
+    height:60px;
+    margin:10px 20px;
+}
+#keyboard{
+    height: 400px;
+}
+
+.operator , .number , .empty{
+    width: 50px;
+    height: 50px;
+    margin:15px;
+    font-size: 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    float: left;
+   border-width: 0;
+}
+.number , .empty{
+    background-color:rgb(233, 229, 229);
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:focus, .operator:focus , .empty:focus{
+    outline: 0;
+}
+.operator:active , .number:active{
+    font-size: 13px;
+}
+
+
+button:nth-child(4){
+    background-color: rgb(90, 184, 171);
+    font-size: 20px;
+}
+button:nth-child(8){
+    background-color: rgb(226, 162, 42);
+    font-size: 28px;
+    
+}
+button:nth-child(12){
+    background-color: pink;
+    font-size: 30px;
+}
+button:nth-child(16){
+    background-color: rgb(102, 119, 212);
+    font-size: 20px;
+}
+button:nth-child(20){
+    background-color: rgb(85, 48, 102);
+    font-size: 20px;
+}
+
+
+
+
+
+
